@@ -8,7 +8,5 @@ UI from
  
 ![screenshoot](https://github.com/Ayman-Shehata/ecommerceui/blob/master/screenshoot/003.PNG?raw=true)
  
-![screenshoot](https://github.com/Ayman-Shehata/ecommerceui/blob/master/screenshoot/004.PNG?raw=true)
- 
-![screenshoot](https://github.com/Ayman-Shehata/ecommerceui/blob/master/screenshoot/005.PNG?raw=true)
+![screenshoot](https://github.com/Ayman-Shehata/ecommerceui/blob/master/screenshoot/04.PNG?raw=true)
  
