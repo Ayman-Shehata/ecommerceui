@@ -10,11 +10,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 const String manLookRightImageUrl =
-    'https://flutter-ui.s3.us-east-2.amazonaws.com/ecommerce/man-look-right.jpg';
+    'https://th.bing.com/th/id/R.ac3170227e0e2cc83736d6e05856fc64?rik=fY9qtu9STwWyKQ&riu=http%3a%2f%2fcdn-blog.cpcstrategy.com%2fwp-content%2fuploads%2f2017%2f01%2fmenswear.jpg&ehk=w20dLeLA5aKIdg5Qj4Ve0zGecAy2pd5lAH%2ff9jMeLF0%3d&risl=&pid=ImgRaw&r=0';
+//'https://flutter-ui.s3.us-east-2.amazonaws.com/ecommerce/man-look-right.jpg';
 const String dogImageUrl =
-    'https://flutter-ui.s3.us-east-2.amazonaws.com/ecommerce/pet.jpg';
+    'https://www.happymumhappychild.co.nz/wp-content/uploads/2017/07/canstockphoto6363698.jpg';
+//'https://flutter-ui.s3.us-east-2.amazonaws.com/ecommerce/pet.jpg';
 const String womanLookLeftImageUrl =
-    'https://flutter-ui.s3.us-east-2.amazonaws.com/ecommerce/woman-look-left.jpg';
+    'https://th.bing.com/th/id/OIP.4nLyO3rM5s9qwEKdu3L66gHaHa?pid=ImgDet&rs=1';
+//'https://flutter-ui.s3.us-east-2.amazonaws.com/ecommerce/woman-look-left.jpg';
 
 Cart cart = Cart();
 
@@ -826,7 +829,7 @@ class _SearchBarState extends State<SearchBar> {
           prefixIcon: const Icon(
             Icons.search,
           ),
-          hintText: "Search for a product",
+          hintText: "ابحث هنا",
           suffixIconConstraints: const BoxConstraints(
             minHeight: 36,
             minWidth: 36,
@@ -929,16 +932,16 @@ class OrderItem {
 }
 
 // TODO: Come up with your own categories
-Category mensCategory = Category(title: "Men", selections: [
+Category mensCategory = Category(title: "للرجال", selections: [
   "Shirts",
   "Jeans",
   "Shorts",
 ]);
-Category womensCategory = Category(title: "Women", selections: [
+Category womensCategory = Category(title: "للنساء", selections: [
   "Shirts",
   "Jeans",
 ]);
-Category petsCategory = Category(title: "Pets", selections: [
+Category petsCategory = Category(title: "للأطفال", selections: [
   "Toys",
   "Treats",
 ]);
